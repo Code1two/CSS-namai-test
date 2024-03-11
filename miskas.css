@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(240, 240, 240, 0.3), rgba(240, 240, 240, 0.3)), url(./miskas.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+span{
+    font-weight: 600;
+    font-size: 20px;
+}
+nav img{
+    height: 60px;
+    width: 100px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: darkgreen;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.texticon img{
+    height: 80%;
+    width: 40%;
+}
+.texticon p{
+    font-size: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.texticon{
+    height: 300px;
+    width: 60%;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50, -50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* ---Antras psl--- */
+
+.Gaugalai h2{
+    text-align: center;
+    padding: 25px;
+}
+.ft{
+    height: 130px;
+    width: 130px;
+}
+.gydantieji{
+    display: flex;
+    flex-wrap: wrap;
+}
+section p{
+    margin: 10px;
+}
+.pirm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 10px 10px 10px ;
+}
+.antr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 10px 10px 10px ;
+}
+.trc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 10px 10px 10px ;
+}
+/* trcs psl */
+.Naugalai h2{
+    text-align: center;
+    padding: 25px;
+    margin: 15px 0px 50px 0px;
+}
+.pirmas{
+    display: flex;
+    justify-content:space-around;
+    align-items:center
+}
+.antras{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.trecias{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ketvirtas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* --ketv psl--- */
+.Mnauda h2{
+    text-align: center;
+    padding: 25px;
+    margin: 15px 0px 50px 0px;
+}
+.coveris{
+    min-height: 40vh;
+    width: 97%;
+    background-image: url(./coveris.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 20px 20px 5px 40px; 
+}
+.aprasymas{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
